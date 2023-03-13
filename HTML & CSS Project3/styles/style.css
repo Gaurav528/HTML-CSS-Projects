@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* Header Section Start */
+.navbar{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    height: 70px;   
+}
+
+.menu-list{
+    flex-grow: 1;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: #ffffff;
+    gap: 60px;
+    line-height: 21px;
+    margin-left: 65px;
+    font-size: 15px;
+    font-weight: 610;
+    cursor: pointer;
+}
+.logo img{
+    width: 90px;
+    height: 32px;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+}
+.logo{
+    cursor: pointer;
+}
+
+.btn{
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    cursor: pointer;
+    padding: 6px 24px;
+    border-radius: 5px;
+    background: #ba0cc5;
+    color: #ffff;
+}
+/* Header Section End */
+
+/* Home Section Start */
+.home{
+    height: 94vh;
+    background-image: url(/assets/bg.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.heading {
+    max-width: 846px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 100px;
+  }
+  
+   .paragraph {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+  }
+  
+  .btn1 {
+    background: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.9487px;
+    line-height: 45px;
+    color: #ffffff;
+    border: none;
+    padding: 14px 22px;
+    margin-top: 64px;
+    cursor: pointer;
+  }
+
+/* Home Section End */
